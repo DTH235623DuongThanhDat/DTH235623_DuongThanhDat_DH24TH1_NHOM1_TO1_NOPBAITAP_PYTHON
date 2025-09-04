@@ -1,0 +1,7 @@
+/ Trả về kết quả phép chia dưới dạng số thực (float), ngay cả khi chia hết.
+// Trả về phần nguyên của phép chia (làm tròn xuống, kể cả khi âm).
+% chia lấy dư.
+** lũy thừa.
+and trả về kết quả TRUE nếu cả hai đều đúng.
+or trả về kết quả TRUE nếu một trong hai đúng.
+is kiểm tra xem hai biến có trỏ đến cùng một địa chỉ bộ nhớ hay không.
