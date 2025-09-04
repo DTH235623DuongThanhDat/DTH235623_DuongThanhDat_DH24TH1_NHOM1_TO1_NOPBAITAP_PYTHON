@@ -1,0 +1,1 @@
+Trong Python để chú thích, chỉ cần thêm ký tự # trước nội dung cần chú thích. Để chú thích nhiều dòng, sử dụng (ba cặp nháy đôi liên tiếp để bắt đầu và ba cặp nháy đôi liên tiếp để kết thúc) hoặc ba cặp nháy đơn liên tiếp để bắt đầu và ba cặp nháy đơn liên tiếp để kết thúc.

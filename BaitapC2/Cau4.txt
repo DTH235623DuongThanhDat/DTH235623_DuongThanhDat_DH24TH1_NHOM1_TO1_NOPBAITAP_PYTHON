@@ -1,0 +1,1 @@
+Python có các kiểu dữ liệu cơ bản như số nguyên (int), số thực (float), kiểu logic (boolean) và chuỗi kí tự (string).
