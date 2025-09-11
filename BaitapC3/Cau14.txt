@@ -1,0 +1,8 @@
+Có **2000** dấu * được in ra màn hình.
+
+Giải thích:
+- Vòng lặp ngoài: a chạy từ 0 đến 99 (100 lần).
+- Vòng lặp trong: b chạy từ 0 đến 39 (40 lần).
+- Tổng số lần kiểm tra: 100 × 40 = 4000 lần.
+- Điều kiện (a + b) % 2 == 0 đúng khi a + b là số chẵn, tức là mỗi cặp a, b có một nửa số trường hợp thỏa mãn (vì số chẵn/lẻ chia đều).
+- Vậy số dấu * in ra là 4000 / 2 = **2000**.

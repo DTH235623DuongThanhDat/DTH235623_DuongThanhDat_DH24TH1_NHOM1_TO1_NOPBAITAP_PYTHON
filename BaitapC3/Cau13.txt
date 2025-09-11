@@ -1,0 +1,2 @@
+Có vô số dấu * được in ra tại vì biến a bắt đầu từ 0, vòng lặp chạy khi a < 100 nhưng trong đoạn mã trên không 
+có đoạn mã tăng biến a lên nên đoạn mã trên luôn đúng.
