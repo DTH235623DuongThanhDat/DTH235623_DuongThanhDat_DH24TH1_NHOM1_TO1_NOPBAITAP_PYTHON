@@ -1,0 +1,7 @@
+for a in range(20, 100, 5):
+    print('*', end='')
+print()
+
+Đoạn code trên sẽ in 16 dấu * trên cùng một dòng
+Tại vì range(20, 100, 5) sẽ ra dãy [20, 25, 30, 35, 40 ,45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95] 
+Mỗi lần lặp sẽ in ra dấu * nằm cùng một hàng do end=''. Vậy số dấu * bằng số lần lặp là 16
