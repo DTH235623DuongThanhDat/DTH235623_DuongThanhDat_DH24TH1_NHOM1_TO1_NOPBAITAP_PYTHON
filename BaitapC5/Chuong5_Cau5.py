@@ -1,0 +1,17 @@
+s = input("Nhập chuỗi: ")
+count = sum(1 for c in s if c.isupper())
+print("Số lượng chữ cái in hoa:", count)
+count_lower = sum(1 for c in s if c.islower())
+print("Số lượng chữ cái in thường:", count_lower)
+count_digit = sum(1 for c in s if c.isdigit())
+print("Số lượng chữ số:", count_digit)
+kiemtra = sum(1 for c in s if not c.isalnum())
+print("Số lượng ký tự đặc biệt: ",kiemtra)
+kiemtrakhoangtrang = sum(1 for c in s if c.isspace())
+print("Số lượng khoảng trắng: ", kiemtrakhoangtrang)
+nguyen_am = 'aeiouAEIOU'
+count_nguyen_am = sum(1 for c in s if c in nguyen_am)
+print("Số lượng chữ nguyên âm:", count_nguyen_am)
+count_phuam = sum(1 for c in s if c.isalpha() and c not in nguyen_am)
+print("Số lượng chữ phụ âm: ", count_phuam)
+
