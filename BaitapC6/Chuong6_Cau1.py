@@ -22,7 +22,7 @@ def CheckPrime(n):
             d += 1
     return d == 2
 demnt = 0
-tonnt = 0
+tongnt = 0
 for x in lst:
     if CheckPrime(x):
         demnt += 1
